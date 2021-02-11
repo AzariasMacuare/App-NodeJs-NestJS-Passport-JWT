@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Yosnier Macuare\Desktop\nest-project\frontend-from-nest\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\Yosnier Macuare\Desktop\frontend-from-nest\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -96,7 +96,7 @@ __webpack_require__.r(__webpack_exports__);
 class LoginComponent {
     constructor(http) {
         this.http = http;
-        this.url = '/api';
+        this.url = 'api';
     }
     ngOnInit() {
     }
