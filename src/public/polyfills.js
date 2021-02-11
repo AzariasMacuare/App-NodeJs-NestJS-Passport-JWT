@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Yosnier Macuare\Desktop\frontend-from-nest\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\Yosnier Macuare\nes-app-frontend\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
