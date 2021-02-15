@@ -10,7 +10,7 @@ export class Task {
 
   @Prop()
   description: string;
-  
+
   @Prop()
   belong: string;
 }

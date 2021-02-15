@@ -71,3 +71,27 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+                                        <!-- DEPLOY TO HEROKU -->
+
+Firs step: 
+
+$ Heroku Login
+  The terminal says: Press any key. Then, log into the browser.
+
+Second Step:
+  Create File: Procfile, and write into firt command post-deploy. For NestJS is npm run start:prod
+
+Third Step:
+  $ heroku git:clone -a nest-login-atlas-yos
+
+  You Cant clone the repository and work on it, or clone to link to the heroku path and delete downloaded repository and continue working on the code.
+
+Fourth Step:
+  $ git add .
+
+fifth Step:
+  $ git commit -am "make it better"
+
+sixth Step:
+  $ git oush heroku master or on this case Heroku main

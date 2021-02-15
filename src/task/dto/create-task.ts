@@ -1,5 +1,5 @@
 export interface CreateTaskDto {
-    name: string;
-    description: string;
-    belong: string;
+  name: string;
+  description: string;
+  belong: string;
 }
