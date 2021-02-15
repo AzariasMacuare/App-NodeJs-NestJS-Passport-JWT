@@ -700,7 +700,7 @@ class LoginAppService {
     constructor(http, router) {
         this.http = http;
         this.router = router;
-        this.url = 'http://localhost:3000';
+        this.url = '';
     }
     // Services for Signin or Signup
     createNewUser(user) {
