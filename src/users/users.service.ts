@@ -17,13 +17,13 @@ export class UsersService {
   async create(user: CreateUserDto) {
     const userExist = await this.UserModel.find({ username: user.username });
     if (!(userExist[0] || userExist[0] === null || userExist[0] === null)) {
-      const salt = 10;
-      const hash = await bcrypt.hash(user.password, salt);
-      const { password, ...remaining } = user;
-      const newUser = {
-        name: remaining.name,
-        username: remaining.username,
-        password: hash,
+          const salt = 10;
+          const hash = await bcrypt.hash(user.password, salt);
+          const { password, ...remaining } = user;
+          const newUser = {
+            name: remaining.name,
+            username: remaining.username,
+            password: hash,
       };
 
       const createdUser = await new this.UserModel(newUser);
